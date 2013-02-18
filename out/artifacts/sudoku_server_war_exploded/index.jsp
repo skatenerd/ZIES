@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="refresh.js" type="text/javascript"></script>
     <title></title>
   </head>
   <body>
+  <div id="result">
+
+  </div>
   HAHAHAHAHAHAHADORPDORPDORP
 
   </body>

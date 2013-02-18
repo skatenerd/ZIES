@@ -21,6 +21,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat Server" level="application_server_libraries" />
     <orderEntry type="library" name="javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="org.apache.commons:com.springsource.org.apache.commons.lang:2.6.0" level="project" />
   </component>
 </module>
 

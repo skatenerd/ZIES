@@ -15,6 +15,7 @@ import java.util.Arrays;
  */
 public class SudokuServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String style = request.getParameter("style");
 
     }
 
@@ -22,74 +23,62 @@ public class SudokuServlet extends HttpServlet {
 
         String pathInfo = request.getPathInfo();
         if(pathInfo == null){
-            handleQuery(response);
+            request.getRequestDispatcher("/index.jsp").forward(request, response);
         }else if(pathInfo.equals("/update")){
             handleUpdate(request,  response);
         }else if(pathInfo.equals("/soft_update")){
             handleSoftUpdate(request,  response);
+        }else if(pathInfo.equals("/poll")){
+            handleQuery(response);
         }else{
             PrintWriter out = response.getWriter();
             out.println("BAD ACTION");
         }
-
-
-
-
-
-//
-//
-//        PrintWriter out = response.getWriter();
-//        String haha = request.getParameter("datta");
-//        out.println("Hello World: " + haha);
     }
+
+
     private void handleUpdate(HttpServletRequest request, HttpServletResponse response) throws IOException {
         final GameSingleton singleton = GameSingleton.Instance();
         final int row = Integer.parseInt(request.getParameter("row"));
         final int col = Integer.parseInt(request.getParameter("col"));
         final int value = Integer.parseInt(request.getParameter("value"));
         try{
-            singleton.checkThenAct(new ArgumentCallable<Integer[][], Integer[][]>() {
+            singleton.checkThenAct(new ArgumentCallable<SudokuState, SudokuState>() {
                 @Override
-                public Integer[][] call(Integer [][] oldState) {
-                    Integer[][] newState = singleton.CopyState(oldState);
-                    newState[row][col] = value;
-                    return newState;
+                public SudokuState call(SudokuState oldState) {
+                    return oldState.hardUpdate(row,col,value);
                 }
             });
         }catch (Exception e){System.out.println("ERROR");};
         response.sendRedirect("/sudoku");
     }
+
     private void handleSoftUpdate(HttpServletRequest request, HttpServletResponse response) throws IOException {
         final GameSingleton singleton = GameSingleton.Instance();
         final int row = Integer.parseInt(request.getParameter("row"));
         final int col = Integer.parseInt(request.getParameter("col"));
         final int value = Integer.parseInt(request.getParameter("value"));
         try{
-            singleton.checkThenAct(new ArgumentCallable<Integer[][], Integer[][]>() {
+            singleton.checkThenAct(new ArgumentCallable<SudokuState, SudokuState>() {
                 @Override
-                public Integer[][] call(Integer [][] oldState) {
-                    Integer[][] newState = singleton.CopyState(oldState);
-                    if(newState[row][col] == null){
-                    newState[row][col] = value;
-                    }
-                    return newState;
+                public SudokuState call(SudokuState oldState) {
+                    return oldState.softUpdate(row,col,value);
                 }
             });
         }catch (Exception e){System.out.println("ERROR");};
         PrintWriter out = response.getWriter();
-        if(singleton.getDataPoint()[row][col] != value){
-            out.println("SOMEONE GOT THERE FIRST!!!");
-            out.println("STATE IS:\n" + singleton.prettyString());
-
-        }else{
+        if(singleton.getDataPoint().updateSucceeded(row,col, value)){
             response.sendRedirect("/sudoku");
+        }else{
+            out.println("SOMEONE GOT THERE FIRST!!!");
+            out.println("STATE IS:\n" + singleton.getDataPoint().prettyString());
         }
     }
 
     private void handleQuery(HttpServletResponse response) throws IOException{
         GameSingleton singleton = GameSingleton.Instance();
         PrintWriter out = response.getWriter();
-        out.println("Hello World:\n" + singleton.prettyString());
+        out.println(singleton.getDataPoint().prettyString());
 
     }
 }
