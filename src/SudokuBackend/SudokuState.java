@@ -68,7 +68,7 @@ public class SudokuState {
         return data[row][col];
     }
 
-    public void setDataAt(Integer row, Integer col, Integer val){
+    private void setDataAt(Integer row, Integer col, Integer val){
         data[row][col] = val;
     }
 
