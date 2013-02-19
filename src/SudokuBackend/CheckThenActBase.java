@@ -1,4 +1,5 @@
-import java.util.concurrent.Callable;
+package SudokuBackend;
+
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -18,7 +19,7 @@ public class CheckThenActBase<T> {
         this.dataPoint = new AtomicReference<T>(data);
     }
 
-    public void checkThenAct(ArgumentCallable<T, T> toExecute) throws Exception{
+    public void checkThenAct(ArgumentCallable<T, T> toExecute) {
         T data = getDataPoint();
 
         T newPoint = toExecute.call(data);

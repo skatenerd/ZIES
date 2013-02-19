@@ -1,3 +1,5 @@
+package SudokuBackend;
+
 import java.util.Arrays;
 
 /**
@@ -9,6 +11,7 @@ import java.util.Arrays;
  */
 public class SudokuState {
     Integer[][] data;
+    public static Integer blank = null;
 
     public SudokuState(){
         data = new Integer[9][9];
@@ -26,7 +29,7 @@ public class SudokuState {
         StringBuilder builder = new StringBuilder();
         for(Integer entry:row){
             String entryString="_____";
-            if(entry != null){
+            if(!blankEntry(entry)){
                 entryString = "____" + entry.toString();
             }
             builder.append(entryString);
@@ -35,8 +38,16 @@ public class SudokuState {
 
         return builder.toString();
     }
+
+    private boolean blankEntry(Integer entry){
+        return (entry == blank);
+    }
+
+    private boolean entriesEqual(Integer first, Integer second){
+        return first == second;
+    }
+
     public SudokuState Clone(){
-        //Integer[][]clone = new Integer[9][];
         SudokuState clone = new SudokuState();
         for(int row=0;row<9;row++){
             clone.data[row] = Arrays.copyOf(data[row], 9);
@@ -44,27 +55,24 @@ public class SudokuState {
         return clone;
     }
 
-    public SudokuState hardUpdate(int row, int col, int value){
+    public SudokuState updateIfLegal(Integer row, Integer col, Integer value){
         SudokuState newState = Clone();
-        newState.setDataAt(row,col,value);
-        return newState;
-    }
-
-    public SudokuState softUpdate(int row, int col, int value){
-        SudokuState newState = Clone();
-        if(dataAt(row,col) == null){
+        if(SuDokuRules.Legal(data, row,col,value)){
             newState.setDataAt(row, col, value);
         }
         return newState;
     }
+
     public Integer dataAt(int row, int col){
+        System.out.println(data);
         return data[row][col];
     }
 
-    public void setDataAt(int row, int col, int val){
+    public void setDataAt(Integer row, Integer col, Integer val){
         data[row][col] = val;
     }
-    public boolean updateSucceeded(int row, int col, int val){
-        return (dataAt(row,col) == val);
+
+    public boolean updateSucceeded(Integer row, Integer col, Integer val){
+        return entriesEqual(dataAt(row,col), val);
     }
 }
