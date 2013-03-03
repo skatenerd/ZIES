@@ -21,6 +21,14 @@ public class SudokuServlet extends HttpServlet {
         final Integer value = parseValueInput(request.getParameter("value"));
         handleUpdate(row, col, value, request, response);
     }
+    public static String formatError(HttpServletRequest request){
+        String error = request.getParameter("error");
+        if(error == null){
+            return "";
+        }else{
+            return error;
+        }
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -38,18 +46,19 @@ public class SudokuServlet extends HttpServlet {
     private void handleUpdate(final Integer row, final Integer col, final Integer value, final HttpServletRequest request, final HttpServletResponse response) throws IOException {
         final GameSingleton singleton = GameSingleton.Instance();
 
-        singleton.checkThenAct(new ArgumentCallable<SudokuState, SudokuState>() {
+        singleton.OptimisticUpdate(new Updater<SudokuState>() {
             @Override
-            public SudokuState call(SudokuState oldState) {
+            public SudokuState update(SudokuState oldState) {
                 return oldState.updateIfLegal(row, col, value);
-            }}
+            }
+        }
         );
 
         PrintWriter out = response.getWriter();
-        if(singleton.getDataPoint().updateSucceeded(row,col, value)){
+        if(singleton.GetSnapshot().updateSucceeded(row,col, value)){
             response.sendRedirect("/sudoku");
         }else{
-            out.println("ILLEGAL MOVE!!!");
+            response.sendRedirect("/sudoku?error=ILLEGAL_MOVE");
         }
     }
 
@@ -64,7 +73,7 @@ public class SudokuServlet extends HttpServlet {
     private void handleQuery(HttpServletResponse response) throws IOException{
         GameSingleton singleton = GameSingleton.Instance();
         PrintWriter out = response.getWriter();
-        out.println(singleton.getDataPoint().prettyString());
+        out.println(singleton.GetSnapshot().prettyString());
 
     }
 }

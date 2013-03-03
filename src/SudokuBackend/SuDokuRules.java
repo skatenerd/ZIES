@@ -1,5 +1,7 @@
 package SudokuBackend;
 
+import java.sql.Connection;
+
 /**
  * Created with IntelliJ IDEA.
  * User: 8thlight

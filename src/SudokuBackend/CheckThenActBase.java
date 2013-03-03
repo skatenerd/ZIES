@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * Time: 6:05 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CheckThenActBase<T> {
+public class CheckThenActBase<T extends Cloneable<T>> {
     public AtomicInteger collisions = new AtomicInteger(0);
 
     protected AtomicReference<T> dataPoint;
@@ -19,21 +19,22 @@ public class CheckThenActBase<T> {
         this.dataPoint = new AtomicReference<T>(data);
     }
 
-    public void checkThenAct(ArgumentCallable<T, T> toExecute) {
-        T data = getDataPoint();
+    public void OptimisticUpdate(Updater<T> toExecute) {
+        T initialValue = dataPoint.get();
+        T newPoint = toExecute.update(GetSnapshot());
 
-        T newPoint = toExecute.call(data);
-
-        if (setDataPoint(data, newPoint)){
+        if (setDataPoint(initialValue, newPoint)){
             return;
         }else{
             collisions.getAndIncrement();
-            checkThenAct(toExecute);
+            OptimisticUpdate(toExecute);
         }
     }
-    public T getDataPoint(){
-        return dataPoint.get();
+
+    public T GetSnapshot(){
+        return dataPoint.get().Clone();
     }
+
     private boolean setDataPoint(T expected, T newValue){
         return dataPoint.compareAndSet(expected, newValue);
     }

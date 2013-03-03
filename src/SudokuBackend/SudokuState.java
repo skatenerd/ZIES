@@ -9,7 +9,7 @@ import java.util.Arrays;
  * Time: 5:15 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SudokuState {
+public class SudokuState implements Cloneable<SudokuState>{
     Integer[][] data;
     public static Integer blank = null;
 
@@ -18,25 +18,41 @@ public class SudokuState {
     }
     public String prettyString(){
         StringBuilder builder = new StringBuilder();
+        builder.append("_|__0__,__1__,__2__|__3__,__4__,__5__|__6__,__7__,__8__|<br/>");
+        int index = 0;
         for(Integer[] row:data){
-            builder.append(formatRow(row));
+            builder.append(formatRow(row, index));
             builder.append("<br/>");
+            builder.append(rowSeparator(index));
+            index++;
         }
         return builder.toString();
     }
 
-    private String  formatRow(Integer[] row){
-        StringBuilder builder = new StringBuilder();
+    private String rowSeparator(Integer index){
+        boolean isRowBarrier =  ((index % 3) == 2);
+        return isRowBarrier ? "++++++++++++++++++++++++++++++++++++++++++++<br/>" : "";
+    }
+
+    private String  formatRow(Integer[] row, Integer rowIndex){
+        StringBuilder builder = new StringBuilder(rowIndex + "|");
+        int colIndex = 0;
         for(Integer entry:row){
             String entryString="_____";
             if(!blankEntry(entry)){
-                entryString = "____" + entry.toString();
+                entryString = "__" + entry.toString() + "__";
             }
             builder.append(entryString);
-            builder.append(",");
+            builder.append(colSeparator(colIndex));
+            colIndex++;
         }
 
         return builder.toString();
+    }
+
+    private String colSeparator(Integer index){
+       boolean isColumnBarrier =  ((index % 3) == 2);
+       return isColumnBarrier ? "|" : ",";
     }
 
     private boolean blankEntry(Integer entry){
@@ -56,11 +72,10 @@ public class SudokuState {
     }
 
     public SudokuState updateIfLegal(Integer row, Integer col, Integer value){
-        SudokuState newState = Clone();
         if(SuDokuRules.Legal(data, row,col,value)){
-            newState.setDataAt(row, col, value);
+            setDataAt(row, col, value);
         }
-        return newState;
+        return this;
     }
 
     public Integer dataAt(int row, int col){

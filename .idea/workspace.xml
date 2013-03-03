@@ -2,22 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c36b31-ab95-4461-bf65-1a36505b7856" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SudokuBackend/ArgumentCallable.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java" afterPath="$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java" afterPath="$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java" afterPath="$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBackend/SudokuState.java" afterPath="$PROJECT_DIR$/src/SudokuBackend/SudokuState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/refresh.js" afterPath="$PROJECT_DIR$/web/refresh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sudoku_server_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sudoku_server_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sudoku_server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.jsp" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361170048960" ignored="false" />
-    <file path="/SudokuServlet.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361245507621" ignored="false" />
-    <file path="/Dummy.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361244046390" ignored="false" />
+    <file path="/index.jsp" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362124005263" ignored="false" />
+    <file path="/SudokuServlet.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362124049125" ignored="false" />
+    <file path="/Dummy.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362331339129" ignored="false" />
     <file path="/GameSingleton.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361143081316" ignored="false" />
     <file path="/GameState.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361169966784" ignored="false" />
-    <file path="/SudokuState.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361246091373" ignored="false" />
+    <file path="/SudokuState.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362122366948" ignored="false" />
     <file path="/refresh.js" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361157088015" ignored="false" />
-    <file path="/SuDokuRules.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361244867065" ignored="false" />
-    <file path="/ArgumentCallable.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361169749669" ignored="false" />
-    <file path="/fragment.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361244362033" ignored="false" />
+    <file path="/SuDokuRules.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361247559276" ignored="false" />
+    <file path="/ArgumentCallable.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362031222198" ignored="false" />
+    <file path="/fragment.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110352265" ignored="false" />
     <file path="/SUDokuRulesTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361245288760" ignored="false" />
-    <file path="/a.dummy" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361246083910" ignored="false" />
+    <file path="/a.dummy" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361420551188" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/IntegerHolderTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361563625899" ignored="false" />
+    <file path="/IntegerHolderTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361258222958" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/IntegerHolder.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361563625899" ignored="false" />
+    <file path="/IntegerHolder.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361404359344" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/ListAndSum.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361314998629" ignored="false" />
+    <file path="/ListAndSum.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361314986857" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/NuclearCountdown.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361322856818" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/VisibilityTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361563625899" ignored="false" />
+    <file path="/VisibilityTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361321247491" ignored="false" />
+    <file path="/NuclearCountdown.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361322849003" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/plan.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361341071346" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/TaxiTracker.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361334389643" ignored="false" />
+    <file path="/TaxiTracker.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361335829837" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/EmployeeList.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361335831518" ignored="false" />
+    <file path="/EmployeeList.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361335655454" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Employee.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361334734973" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/TransposerTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110363078" ignored="false" />
+    <file path="/TransposerTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361373721444" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Transposer.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361403475807" ignored="false" />
+    <file path="/Transposer.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361403367696" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordCounter.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361420002043" ignored="false" />
+    <file path="/WordCounter.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361494320825" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/words.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361418908338" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_1.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361466623186" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_2.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361496401673" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_4.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361466623186" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_3.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361466623186" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_8.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361420010710" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_5.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361466623186" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_7.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361466623186" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/WordCounter.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361494377451" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordCounterTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110363078" ignored="false" />
+    <file path="/WordCounterTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361496372176" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words_6.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361466623186" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/words.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361465899970" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/MergeSort.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361563625899" ignored="false" />
+    <file path="/MergeSort.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361493336068" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/MergeSortTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110362626" ignored="false" />
+    <file path="/MergeSortTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361493279678" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/WordsFixtures/long_words.txt" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361500815327" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/DequeWordCounter.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361563625899" ignored="false" />
+    <file path="/DequeWordCounter.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361501089081" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/DequeWordCounterTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110363078" ignored="false" />
+    <file path="/DequeWordCounterTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361500929714" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallel-clojure/src/parallel_clojure/core.clj" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361659523666" ignored="false" />
+    <file path="/web.xml" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361575265888" ignored="false" />
+    <file path="/core.clj" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361654732546" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallel-clojure/project.clj" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361575827329" ignored="false" />
+    <file path="/project.clj" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1361575506577" ignored="false" />
+    <file path="/CheckThenActBase.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362032838108" ignored="false" />
+    <file path="/Cloneable.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362103515363" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/Economy1.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362102995355" ignored="false" />
+    <file path="/Economy1.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362095386904" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/Economy2Extracted.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104537643" ignored="false" />
+    <file path="/Economy2Extracted.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104536879" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/Economy2Inherits.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362154995531" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/SynchronizerBase.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104392860" ignored="false" />
+    <file path="/SynchronizerBase.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104392500" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/Cloneable.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362103524403" ignored="false" />
+    <file path="/Economy2Inherits.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362154993636" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/EconomyState.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104260491" ignored="false" />
+    <file path="/EconomyState.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104253933" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/Economy4.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362109643682" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/Economy/EconomiesTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362155028168" ignored="false" />
+    <file path="/EconomiesTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362155027356" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/Economy3.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362115352548" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/Economy/Economy1Test.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362104755609" ignored="false" />
+    <file path="/Economy3.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362114968237" ignored="false" />
+    <file path="/Economy4.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362109642383" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Time/Timer.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110362626" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/test/SleeperTest.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362110363078" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/EconomySmart.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362116541808" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/EconomyNoLocks.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362116476290" ignored="false" />
+    <file path="/EconomyNoLocks.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362116887301" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/BaseNoLocks.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362116593815" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/BaseSmart.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362154814472" ignored="false" />
+    <file path="/EconomySmart.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362116572504" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/OptimisticBase.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362117945639" ignored="false" />
+    <file path="/OptimisticBase.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362117712447" ignored="false" />
+    <file path="$PROJECT_DIR$/../parallel-clojure/src/parallel_clojure/economy.clj" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362121615184" ignored="false" />
+    <file path="/BaseSmart.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362154814472" ignored="false" />
+    <file path="$PROJECT_DIR$/../threading/src/Economy/EconomySmartInherits.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362155044789" ignored="false" />
+    <file path="/EconomySmartInherits.java" changelist="26c36b31-ab95-4461-bf65-1a36505b7856" time="1362155044312" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +123,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,6 +157,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -76,64 +167,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="SUDokuRulesTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/SUDokuRulesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="30" selection-start="1845" selection-end="1845" vertical-scroll-proportion="-34.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="refresh.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/refresh.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="9" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="50" selection-start="2152" selection-end="2152" vertical-scroll-proportion="-12.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArgumentCallable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/ArgumentCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckThenActBase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="54" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+            <state line="13" column="19" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,25 +179,79 @@
       <file leaf-file-name="SuDokuRules.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="853" selection-end="858" vertical-scroll-proportion="-4.769231">
+            <state line="33" column="30" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuState.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CheckThenActBase.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="18" selection-start="767" selection-end="767" vertical-scroll-proportion="0.4595186">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameSingleton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/GameSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="31" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SudokuState.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SudokuState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="11" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.8761726">
+            <state line="66" column="45" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SUDokuRulesTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SUDokuRulesTest.java">
+      <file leaf-file-name="Updater.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/Updater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="493" selection-end="493" vertical-scroll-proportion="-3.6153846">
+            <state line="10" column="19" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cloneable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/Cloneable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="6" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SudokuServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="13" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refresh.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/refresh.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="10" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="65" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,30 +275,35 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/GameState.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/GameSingleton.java" />
-        <option value="$PROJECT_DIR$/web/jquery.js" />
-        <option value="$PROJECT_DIR$/src/CheckThenActBase.java" />
         <option value="$PROJECT_DIR$/src/SudokuServlet.java" />
         <option value="$PROJECT_DIR$/src/ArgumentCallable.java" />
         <option value="$PROJECT_DIR$/src/SudokuState.java" />
         <option value="$PROJECT_DIR$/src/SuDokuRules.java" />
         <option value="$PROJECT_DIR$/src/SudokuBackend/GameState.java" />
-        <option value="$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java" />
         <option value="$PROJECT_DIR$/test/SUDokuRulesTest.java" />
-        <option value="$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/refresh.js" />
+        <option value="$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/SudokuBackend/ArgumentCallable.java" />
+        <option value="$PROJECT_DIR$/src/SudokuBackend/Updater.java" />
+        <option value="$PROJECT_DIR$/src/SudokuBackend/Cloneable.java" />
+        <option value="$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java" />
         <option value="$PROJECT_DIR$/src/SudokuBackend/SudokuState.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java" />
+        <option value="$PROJECT_DIR$/web/refresh.js" />
       </list>
     </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="sudoku_server/invalid/Web" />
+    </ignored-facets>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
@@ -241,6 +337,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,24 +380,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SudokuBackend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.1425762" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../threading" />
     <property name="project.structure.side.proportion" value="0.115606934" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -312,6 +460,8 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -412,13 +562,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -448,7 +591,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat Server">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sudoku" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8079/sudoku" />
       <deployment>
         <artifact name="sudoku_server:war exploded">
           <settings>
@@ -458,6 +601,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_Server_sudoku_server" />
+        <option name="HTTP_PORT" value="8079" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -543,33 +687,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32804233" sideWeight="0.19153515" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.331565" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14060259" sideWeight="0.80901855" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19098143" sideWeight="0.99363565" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.49713057" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20946915" sideWeight="0.6719577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39616615" sideWeight="0.8034433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.4856528" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -633,13 +777,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="21" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
@@ -661,91 +798,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="javaeeDummy://JavaeeElement:/28b9e2eb/SudokuServlet/sudoku_server/web/Web/Servlet">
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.ServletEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="28407" selection-start="92635" selection-end="92635" vertical-scroll-proportion="0.13574661" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/GameSingleton.java">
+    <entry file="file://$PROJECT_DIR$/test/SUDokuRulesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="519" selection-end="519" vertical-scroll-proportion="0.6923077">
+        <state line="13" column="19" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/ArgumentCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state line="9" column="41" selection-start="408" selection-end="408" vertical-scroll-proportion="0.47368422">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java">
+    <entry file="file://$PROJECT_DIR$/sudoku_server.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SUDokuRulesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/GameSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="493" selection-end="493" vertical-scroll-proportion="-3.6153846">
+        <state line="21" column="31" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SuDokuRules.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="853" selection-end="858" vertical-scroll-proportion="-4.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="50" selection-start="2152" selection-end="2152" vertical-scroll-proportion="-12.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="30" selection-start="1845" selection-end="1845" vertical-scroll-proportion="-34.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/refresh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+        <state line="33" column="30" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SudokuState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="11" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.8761726">
+        <state line="66" column="45" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/SudokuServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="65" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/refresh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBackend/CheckThenActBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="18" selection-start="767" selection-end="767" vertical-scroll-proportion="0.4595186">
           <folding />
         </state>
       </provider>
@@ -760,7 +895,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.115606934" />
                 <option value="0.5" />
               </list>
             </option>

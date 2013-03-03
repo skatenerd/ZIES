@@ -1,4 +1,5 @@
 <%@ page import="SudokuBackend.SudokuState" %>
+<%@ page import="SudokuBackend.SudokuServlet" %>
 <%--
   Created by IntelliJ IDEA.
   User: 8thlight
@@ -15,6 +16,7 @@
   </head>
   <body>
   <h3>ZERO INDEXED EMERGENT SUDOKU</h3>
+  <h4><%= SudokuServlet.formatError(request) %></h4>
   <div id="result">
   </div>
   <form action="/sudoku" method="post">

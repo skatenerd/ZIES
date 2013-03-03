@@ -7,6 +7,6 @@ package SudokuBackend;
  * Time: 6:14 PM
  * To change this template use File | Settings | File Templates.
  */
-public interface ArgumentCallable<T,U> {
-    public U call(T foo);
+public interface Updater<T> {
+    public T update(T foo);
 }
