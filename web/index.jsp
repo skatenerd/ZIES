@@ -1,4 +1,3 @@
-<%@ page import="SudokuBackend.SudokuState" %>
 <%@ page import="SudokuBackend.SudokuServlet" %>
 <%--
   Created by IntelliJ IDEA.
